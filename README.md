@@ -2,19 +2,23 @@
 
 # Setup
 
+## WARNING
+
+If your python libraries were installed in a virtual environment, enter the environment first
+
 ## Database Setup
 
-1 - Enter the NLP_APS1 folder, and run Get_servant_name.py (wait until it finishes)
+1 - Enter the NLP_APS1 folder, and run the Get_servant_name.py file (wait until it finishes)
 
-2 - Run Get_servant_description.py (wait until it finishes)
+2 - Run the Get_servant_description.py file (wait until it finishes, can take a few minutes)
 
 3 - Move the file Data.csv to the tiagovs_nlp_aps1 folder, on the same level as setup.py 
 
 ## App Setup
 
-1 - Enter the tiagovs_nlp_aps1 folder, and run docker build -t tiagovs_nlp_aps1 .
+1 - Enter the tiagovs_nlp_aps1 folder, and run sudo docker build -t tiagovs_nlp_aps1 .
 
-2 - Run docker run -d -p 2103:8888 tiagovs_nlp_aps1
+2 - Run sudo docker run -d -p 2103:8888 tiagovs_nlp_aps1
 
 3 - Access http://localhost:2103 to see if API is working (Note: localhost can be exchanged for the IP Address of the machine running the API)
 
