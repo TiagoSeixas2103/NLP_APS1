@@ -4,11 +4,11 @@
 
 ## Database Setup
 
-1 - Enter the tiagovs_nlp_aps1 folder, and run Get_servant_name.py (wait until it finishes)
+1 - Enter the NLP_APS1 folder, and run Get_servant_name.py (wait until it finishes)
 
 2 - Run Get_servant_description.py (wait until it finishes)
 
-3 - Make sure Data.csv is inside the tiagovs_nlp_aps1 folder, on the same level as setup.py 
+3 - Move the file Data.csv to the tiagovs_nlp_aps1 folder, on the same level as setup.py 
 
 ## App Setup
 
