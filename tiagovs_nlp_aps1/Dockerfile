@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 
-
+RUN pip install --no-cache-dir pytest && pytest --disable-warnings
     
 EXPOSE 8888
 
